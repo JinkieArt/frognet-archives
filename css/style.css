@@ -1,6 +1,295 @@
+/* F.R.O.G. ARCHIVES
+   FIELD RECORDS OF ODD GREENERY
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #111;
+}
+
+body {
+    margin: 0;
+    padding: 30px 10px;
+
+    background: #111;
+
+    color: #c8c8c8;
+
+    font-family: "Courier New", Courier, monospace;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
+
+
+/* MAIN SITE */
+
+.site-wrapper {
+    width: 850px;
+    max-width: 100%;
+
+    margin: 0 auto;
+
+    border: 3px ridge #777;
+
+    background: #181818;
+}
+
+
+/* HEADER */
+
+.site-header {
+    background: #252525;
+
+    border-bottom: 3px ridge #777;
+
+    padding: 15px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+
+    color: #777;
+
+    font-size: 11px;
+}
+
 .site-header h1 {
     margin: 15px 0 10px;
+
     color: #00FFFF;
+
     font-size: 18pt;
+
     text-align: center;
+}
+
+
+/* NAVIGATION */
+
+.main-nav {
+    display: flex;
+
+    border-bottom: 2px ridge #666;
+
+    background: #303030;
+}
+
+.main-nav a {
+    display: block;
+
+    padding: 7px 15px;
+
+    border-right: 2px ridge #666;
+
+    color: #aaa;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    background: #444;
+
+    color: #fff;
+}
+
+
+/* MAIN CONTENT */
+
+main {
+    padding: 15px;
+}
+
+
+/* BOXES */
+
+.notice-box,
+.archive-box,
+.terminal-box {
+    margin-bottom: 15px;
+
+    border: 2px ridge #666;
+
+    background: #202020;
+}
+
+.box-title {
+    padding: 5px 8px;
+
+    border-bottom: 2px ridge #666;
+
+    background: #303030;
+
+    color: #ddd;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+.notice-box p,
+.archive-box p,
+.terminal-box pre {
+    margin: 12px;
+}
+
+
+/* WARNING */
+
+.warning {
+    padding: 8px;
+
+    border: 1px solid #665c3b;
+
+    background: #29271e;
+
+    color: #c7b878;
+}
+
+
+/* LINKS */
+
+a {
+    color: #00FFFF;
+
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+/* CURRENT SUBJECT */
+
+.subject-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 180px;
+
+    gap: 20px;
+
+    padding: 15px;
+}
+
+.subject-info h2 {
+    margin-top: 0;
+
+    color: #ddd;
+
+    font-size: 20px;
+
+    letter-spacing: 2px;
+}
+
+
+/* TABLE */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    font-size: 12px;
+}
+
+td {
+    padding: 6px 8px;
+
+    border: 1px solid #555;
+}
+
+td:first-child {
+    width: 40%;
+
+    background: #292929;
+
+    color: #888;
+
+    font-weight: bold;
+}
+
+
+/* ARCHIVE STAMP */
+
+.subject-stamp {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.stamp {
+    padding: 18px 12px;
+
+    border: 3px double #866;
+
+    color: #966;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    transform: rotate(-7deg);
+}
+
+
+/* TERMINAL */
+
+.terminal-box {
+    background: #101510;
+}
+
+.terminal-box .box-title {
+    background: #202520;
+}
+
+.terminal-box pre {
+    overflow-x: auto;
+
+    color: #82a582;
+
+    font-family: "Courier New", Courier, monospace;
+
+    font-size: 12px;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 15px;
+
+    background: #151515;
+
+    color: #666;
+
+    text-align: center;
+
+    font-size: 11px;
+}
+
+.footer-line {
+    border-top: 2px ridge #555;
+
+    margin-bottom: 12px;
+}
+
+.small-text {
+    color: #666;
+
+    font-size: 10px;
 }
