@@ -55,6 +55,8 @@ body {
     display: flex;
     justify-content: space-between;
 
+   font-family: "Courier New", Courier, monospace;
+
     color: #777;
 
     font-size: 11px;
@@ -63,7 +65,7 @@ body {
 .site-header h1 {
     margin: 15px 0 10px;
 
-    color: #00FFFF;
+    color: #008080;
 
     font-size: 18pt;
 
