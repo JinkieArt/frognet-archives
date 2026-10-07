@@ -295,3 +295,18 @@ footer {
 
     font-size: 10px;
 }
+
+@media (max-width: 600px) {
+    .subject-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .subject-stamp {
+        margin-top: 10px;
+        min-height: 120px;
+    }
+
+    .stamp {
+        transform: rotate(-5deg);
+    }
+}
