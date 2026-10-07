@@ -300,12 +300,12 @@ footer {
 
     .subject-grid {
         display: block;
-        padding: 15px;
     }
 
     .subject-stamp {
         display: block;
-        margin-top: 20px;
+        width: 100%;
+        margin-top: 25px;
         text-align: center;
     }
 
